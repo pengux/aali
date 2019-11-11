@@ -83,29 +83,29 @@ sudo reboot
 ##### Variables
 | Name            | Description                                                                                                            | Default |
 | ---             | ---                                                                                                                    | ---     |
-| SWAPSIZE        | Size of the swap file to be created at `/swapfile`                                                                     | 4G      |
 | MIRRORS_COUNTRY | If set, will only use mirrors from the specified country                                                               | all     |
 | SET_NOATIME     | Set `noatime` for ext4 mount to [improve performance](https://wiki.archlinux.org/index.php/Ext4#Improving_performance) | false   |
 
 Set these variables to a different value before calling the install script, e.g.:
 ```
-SWAPSIZE=32G MIRRORS_COUNTRY=SE SET_NOATIME=true ./run.sh
+MIRRORS_COUNTRY=SE SET_NOATIME=true ./run.sh
 ```
 
 #### System setup
 
 ##### Variables
-| Name     | Description          | Default |
-| ---      | ---                  | ---     |
-| TZ       | Time-zone for system | UTC     |
-| LANG     | System language      | en_US   |
-| KEYMAP   | System keymap        | us      |
-| HOSTNAME | Hostname of system   | arch    |
-| USER     | System user          | arch    |
+| Name     | Description                                        | Default |
+| ---      | ---                                                | ---     |
+| SWAPSIZE | Size of the swap file to be created at `/swapfile` | 4G      |
+| TZ       | Time-zone for system                               | UTC     |
+| LANG     | System language                                    | en_US   |
+| KEYMAP   | System keymap                                      | us      |
+| HOSTNAME | Hostname of system                                 | arch    |
+| USER     | System user                                        | arch    |
 
 Example:
 ```
-TZ=Europe/Stockholm LANG=sv_SE KEYMAP=sv-latin1 HOSTNAME=mylinux USER=peter ./2_system_setup/run.sh
+SWAPSIZE=32G TZ=Europe/Stockholm LANG=sv_SE KEYMAP=sv-latin1 HOSTNAME=mylinux USER=peter ./2_system_setup/run.sh
 ```
 
 #### Post-install
