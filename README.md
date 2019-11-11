@@ -59,14 +59,20 @@ wget https://github.com/pengux/aali/tarball/master
 tar -xvf master
 cd pengux-aali-xxxxxxx
 find . -type f -name '*.sh' -exec chmod +x {} \;
-./1_base/run.sh
+cd 1_base
+./run.sh
 # Should now be in /mnt
 cd /tmp
-./2_system_setup/run.sh
+wget https://github.com/pengux/aali/tarball/master
+tar -xvf master
+cd pengux-aali-xxxxxxx
+find . -type f -name '*.sh' -exec chmod +x {} \;
+cd 2_system_setup
+./run.sh
 reboot
 # Login as normal user
-cd /tmp
-./3_post_install/run.sh
+cd /tmp/3_post_install
+./run.sh
 sudo reboot
 ```
 
