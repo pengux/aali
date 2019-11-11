@@ -12,6 +12,14 @@ echo "Installing Pulseaudio and ncpamixer"
 yay -S --noconfirm --needed pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulseaudio-zeroconf ncpamixer
 echo
 
+echo "Installing bluez-utils"
+yay -S --noconfirm --needed bluez-utils
+echo
+
+echo "Installing libinput"
+yay -S --noconfirm --needed libinput xf86-input-libinput xorg-xinput
+echo
+
 echo "Installing urxvt with perl extensions"
 yay -S --noconfirm --needed rxvt-unicode urxvt-perls
 mkdir -p $HOME/.urxvt/ext/
