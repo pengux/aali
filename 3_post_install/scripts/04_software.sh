@@ -70,6 +70,10 @@ echo "Installing ranger"
 yay -S --noconfirm --needed ranger-git
 echo
 
+echo "Installing Go"
+yay -S --noconfirm --needed go
+echo
+
 echo "Installing fzf"
 yay -S --noconfirm --needed fzf-git
 echo
@@ -92,10 +96,6 @@ echo
 
 echo "Installing maim for screen capture"
 yay -S --noconfirm --needed maim
-echo
-
-echo "Installing Go"
-yay -S --noconfirm --needed go
 echo
 
 echo "Installing Docker and docker-compose"
