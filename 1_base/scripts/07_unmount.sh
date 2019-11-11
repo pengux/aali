@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 #This will execute after user exits from chroot
 

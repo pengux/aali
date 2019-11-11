@@ -8,6 +8,6 @@ echo
 
 if [ "$SET_NOATIME" = true ]; then
 echo -e "\nSetting noatime for ext4 mount\n"
-sed -i 's/rw,relatime/rw,relatime,noatime/' /etc/fstab
+sed -i 's/rw,relatime/rw,relatime,noatime/' /mnt/etc/fstab
 echo
 fi

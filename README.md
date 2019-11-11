@@ -58,6 +58,7 @@ Follow the [Arch Linux Installation Guide](https://wiki.archlinux.org/index.php/
 wget https://github.com/pengux/aali/tarball/master
 tar -xvf master
 cd pengux-aali-xxxxxxx
+find . -type f -name '*.sh' -exec chmod +x {} \;
 ./1_base/run.sh
 # Should now be in /mnt
 cd /tmp
