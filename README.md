@@ -52,7 +52,7 @@ Well, not fully automated but a collection of scripts to help automating setting
 - [SSH VPN](https://aur.archlinux.org/packages/networkmanager-ssh-git/)
 
 ## Usage
-Follow the [Arch Linux Installation Guide](https://wiki.archlinux.org/index.php/Installation_guide) until you have partition and format your file system. Mount the file system at `/mnt` and then run:
+Follow the [Arch Linux Installation Guide](https://wiki.archlinux.org/index.php/Installation_guide) until you have partition and format your file system. Make sure that the `/boot` is a [EFI system partition](https://wiki.archlinux.org/index.php/EFI_system_partition). Mount the file system at `/mnt` and then run:
 
 ```
 wget https://github.com/pengux/aali/tarball/master
@@ -88,6 +88,7 @@ sudo reboot
 
 Set these variables to a different value before calling the install script, e.g.:
 ```
+cd 1_base
 MIRRORS_COUNTRY=SE SET_NOATIME=true ./run.sh
 ```
 
@@ -105,7 +106,8 @@ MIRRORS_COUNTRY=SE SET_NOATIME=true ./run.sh
 
 Example:
 ```
-SWAPSIZE=32G TZ=Europe/Stockholm LANG=sv_SE KEYMAP=sv-latin1 HOSTNAME=mylinux USER=peter ./2_system_setup/run.sh
+cd 2_system_setup
+SWAPSIZE=32G TZ=Europe/Stockholm LANG=sv_SE KEYMAP=sv-latin1 HOSTNAME=mylinux USER=peter ./run.sh
 ```
 
 #### Post-install
@@ -117,7 +119,8 @@ SWAPSIZE=32G TZ=Europe/Stockholm LANG=sv_SE KEYMAP=sv-latin1 HOSTNAME=mylinux US
 
 Example:
 ```
-KEYMAP=se ./3_post_install/run.sh
+cd 3_post_install
+KEYMAP=se ./run.sh
 ```
 
 ##### Notes
