@@ -89,7 +89,7 @@ sudo reboot
 
 Set these variables to a different value before calling the install script, e.g.:
 ```
-SWAPSIZE=32G MIRRORS_COUNTRY=SE SET_NOATIME=true ./1_base/run.sh
+SWAPSIZE=32G MIRRORS_COUNTRY=SE SET_NOATIME=true ./run.sh
 ```
 
 #### System setup
