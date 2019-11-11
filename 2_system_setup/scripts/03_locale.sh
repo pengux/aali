@@ -8,9 +8,9 @@ locale-gen > /dev/null
 echo
 
 echo -e "\nSetting up language\n"
-echo 'LANG=$LANG.UTF-8' >> /etc/locale.conf
+echo "LANG=$LANG.UTF-8" >> /etc/locale.conf
 echo
 
 echo -e "\nSetting up keymap\n"
-echo 'KEYMAP=$KEYMAP' >> /etc/vconsole.conf
+echo "KEYMAP=$KEYMAP" >> /etc/vconsole.conf
 echo

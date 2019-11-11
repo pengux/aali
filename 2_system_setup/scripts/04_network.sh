@@ -13,6 +13,6 @@ echo '127.0.1.1	$HOSTNAME.localdomain	$HOSTNAME' >> /etc/hosts
 echo
 
 echo -e "\nSetup and enable DHCP\n"
-pacman -S --noconfirm dhcpd
+pacman -S --noconfirm dhcpcd
 systemctl enable dhcpcd
 echo
