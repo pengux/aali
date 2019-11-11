@@ -22,13 +22,13 @@ Well, not fully automated but a collection of scripts to help automating setting
 - [emacs](https://wiki.archlinux.org/index.php/emacs)
 - [w3m](https://www.archlinux.org/packages/extra/x86_64/w3m/)
 - [ranger](https://aur.archlinux.org/packages/ranger-git/)
+- [Go](https://wiki.archlinux.org/index.php/go)
 - [fzf](https://wiki.archlinux.org/index.php/fzf)
 - [pass](https://wiki.archlinux.org/index.php/pass)
 - [dunst](https://wiki.archlinux.org/index.php/dunst)
 - [zathura](https://wiki.archlinux.org/index.php/zathura)
 - [wireguard](https://wiki.archlinux.org/index.php/WireGuard)
 - [maim](https://www.archlinux.org/packages/community/x86_64/maim/)
-- [Go](https://wiki.archlinux.org/index.php/go)
 - [Docker](https://wiki.archlinux.org/index.php/go)
 - [mycli](https://aur.archlinux.org/packages/mycli/)
 - [pgcli](https://aur.archlinux.org/packages/pgcli/)
@@ -69,8 +69,8 @@ cd pengux-aali-xxxxxxx
 find . -type f -name '*.sh' -exec chmod +x {} \;
 cd 2_system_setup
 ./run.sh
-reboot
 # Login as normal user
+su arch
 cd /tmp/3_post_install
 ./run.sh
 sudo reboot
