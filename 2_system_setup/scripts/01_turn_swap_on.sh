@@ -3,7 +3,7 @@
 SWAPSIZE=${SWAPSIZE:-4G}
 
 echo -e "\nCreate a swap file at /swapfile\n"
-fallocate -l $SWAPSZIE /swapfile
+fallocate -l $SWAPSIZE /swapfile
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
