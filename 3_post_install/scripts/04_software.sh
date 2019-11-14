@@ -38,6 +38,10 @@ echo "Installing bspwm and sxhkd"
 yay -S --noconfirm --needed bspwm-git sxhkd-git
 echo
 
+echo "Installing slock"
+yay -S --noconfirm --needed slock
+echo
+
 echo "Installing dmenu"
 yay -S --noconfirm --needed dmenu
 echo
@@ -62,8 +66,8 @@ echo "Installing pywal"
 yay -S --noconfirm --needed python-pywal
 echo
 
-echo "Installing vim"
-yay -S --noconfirm --needed vim
+echo "Installing gvim"
+yay -S --noconfirm --needed gvim
 echo
 
 echo "Installing emacs"
