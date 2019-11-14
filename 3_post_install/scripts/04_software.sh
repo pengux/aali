@@ -42,6 +42,10 @@ echo "Installing slock"
 yay -S --noconfirm --needed slock
 echo
 
+echo "Installing gnupg"
+yay -S --noconfirm --needed gnupg
+echo
+
 echo "Installing dmenu"
 yay -S --noconfirm --needed dmenu
 echo

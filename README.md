@@ -13,6 +13,7 @@ Well, not fully automated but a collection of scripts to help automating setting
 - [zsh](https://wiki.archlinux.org/index.php/zsh)
 - [bspwm](https://wiki.archlinux.org/index.php/bspwm)
 - [slock](https://wiki.archlinux.org/index.php/Slock)
+- [gnupg](https://wiki.archlinux.org/index.php/GnuPG)
 - [sxhkd](https://wiki.archlinux.org/index.php/sxhkd)
 - [dmenu](https://wiki.archlinux.org/index.php/dmenu)
 - [polybar](https://wiki.archlinux.org/index.php/polybar)
