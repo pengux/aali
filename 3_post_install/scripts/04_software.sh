@@ -42,6 +42,14 @@ echo "Installing slock"
 yay -S --noconfirm --needed slock
 echo
 
+echo "Installing xidlehook"
+yay -S --noconfirm --needed xidlehook
+echo
+
+echo "Installing autorandr"
+yay -S --noconfirm --needed autorandr
+echo
+
 echo "Installing gnupg"
 yay -S --noconfirm --needed gnupg
 echo

@@ -13,6 +13,8 @@ Well, not fully automated but a collection of scripts to help automating setting
 - [zsh](https://wiki.archlinux.org/index.php/zsh)
 - [bspwm](https://wiki.archlinux.org/index.php/bspwm)
 - [slock](https://wiki.archlinux.org/index.php/Slock)
+- [xidlehook](https://aur.archlinux.org/packages/xidlehook/)
+- [autorandr](https://www.archlinux.org/packages/community/any/autorandr/)
 - [gnupg](https://wiki.archlinux.org/index.php/GnuPG)
 - [sxhkd](https://wiki.archlinux.org/index.php/sxhkd)
 - [dmenu](https://wiki.archlinux.org/index.php/dmenu)
