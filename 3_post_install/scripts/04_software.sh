@@ -91,7 +91,7 @@ yay -S --noconfirm --needed w3m
 echo
 
 echo "Installing ranger"
-yay -S --noconfirm --needed ranger-git
+yay -S --noconfirm --needed ranger
 echo
 
 echo "Installing Go"
