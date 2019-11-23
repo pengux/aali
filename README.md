@@ -5,6 +5,7 @@ Well, not fully automated but a collection of scripts to help automating setting
 - [yay](https://aur.archlinux.org/packages/yay/)
 - [git](https://aur.archlinux.org/packages/yay/)
 - [xorg](https://wiki.archlinux.org/index.php/xorg)
+- [picom](https://wiki.archlinux.org/index.php/Picom)
 - [pulseaudio](https://wiki.archlinux.org/index.php/PulseAudio)
 - [ncpamixer](https://github.com/fulhax/ncpamixer)
 - [bluez-utils](https://www.archlinux.org/packages/extra/x86_64/bluez-utils/)

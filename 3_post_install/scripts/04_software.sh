@@ -8,6 +8,10 @@ echo "Installing Xorg"
 yay -S --noconfirm --needed xorg xorg-xinit
 echo
 
+echo "Installing picom"
+yay -S --noconfirm --needed picom
+echo
+
 echo "Installing Pulseaudio and ncpamixer"
 yay -S --noconfirm --needed pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulseaudio-zeroconf ncpamixer
 echo
