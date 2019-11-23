@@ -20,8 +20,8 @@ echo "Installing bluez-utils"
 yay -S --noconfirm --needed bluez-utils
 echo
 
-echo "Installing libinput"
-yay -S --noconfirm --needed libinput xf86-input-libinput xorg-xinput
+echo "Installing libinput and libinput-gestures"
+yay -S --noconfirm --needed libinput xf86-input-libinput xorg-xinput libinput-gestures
 echo
 
 echo "Installing urxvt with perl extensions"
