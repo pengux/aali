@@ -106,8 +106,8 @@ echo "Installing fzf"
 yay -S --noconfirm --needed fzf-git
 echo
 
-echo "Installing pass"
-yay -S --noconfirm --needed pass-git
+echo "Installing pass and exteions"
+yay -S --noconfirm --needed pass-git pass-update pass-audit
 echo
 
 echo "Installing dunst"

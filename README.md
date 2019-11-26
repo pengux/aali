@@ -32,6 +32,8 @@ Well, not fully automated but a collection of scripts to help automating setting
 - [Go](https://wiki.archlinux.org/index.php/go)
 - [fzf](https://wiki.archlinux.org/index.php/fzf)
 - [pass](https://wiki.archlinux.org/index.php/pass)
+- [pass-update](https://github.com/roddhjav/pass-update)
+- [pass-audit](https://github.com/roddhjav/pass-audit)
 - [dunst](https://wiki.archlinux.org/index.php/dunst)
 - [zathura](https://wiki.archlinux.org/index.php/zathura)
 - [wireguard](https://wiki.archlinux.org/index.php/WireGuard)
