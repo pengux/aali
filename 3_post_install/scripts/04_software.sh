@@ -169,3 +169,11 @@ echo
 echo "Installing VLC"
 yay -S --noconfirm --needed vlc
 echo
+
+echo "Installing restic backup tool"
+yay -S --noconfirm --needed restic
+echo
+
+echo "Installing fuse"
+yay -S --noconfirm --needed fuse
+echo

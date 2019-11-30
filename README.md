@@ -50,6 +50,8 @@ Well, not fully automated but a collection of scripts to help automating setting
 - [Gimp](https://wiki.archlinux.org/index.php/GIMP)
 - [VLC](https://wiki.archlinux.org/index.php/VLC_media_player)
 - [NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager)
+- [restic](https://restic.readthedocs.io/en/latest/)
+- [fuse](https://www.archlinux.org/packages/?sort=&q=fuse&maintainer=&flagged=)
 
 ### urxvt extensions
 - [urxvt-perls](https://www.archlinux.org/packages/community/any/urxvt-perls/)
