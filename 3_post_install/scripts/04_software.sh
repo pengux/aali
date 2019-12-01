@@ -131,11 +131,12 @@ yay -S --noconfirm --needed docker docker-compose-bin
 echo
 
 echo "Installing mycli"
-yay -S --noconfirm --needed mycli
+pip install --user mycli
 echo
 
 echo "Installing pgcli"
-yay -S --noconfirm --needed pgcli
+yay -S --noconfirm --needed postgresql-libs
+pip install --user pgcli
 echo
 
 echo "Installing Firefox"
