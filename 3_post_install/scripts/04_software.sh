@@ -178,3 +178,7 @@ echo
 echo "Installing fuse"
 yay -S --noconfirm --needed fuse
 echo
+
+echo "Installing flameshot"
+yay -S --noconfirm --needed flameshot
+echo
