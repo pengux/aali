@@ -8,7 +8,7 @@ Well, not fully automated but a collection of scripts to help automating setting
 - [picom](https://wiki.archlinux.org/index.php/Picom)
 - [pulseaudio](https://wiki.archlinux.org/index.php/PulseAudio)
 - [ncpamixer](https://github.com/fulhax/ncpamixer)
-- [bluez-utils](https://www.archlinux.org/packages/extra/x86_64/bluez-utils/)
+- [bluez + bluez-utils](https://www.archlinux.org/packages/?name=bluez)
 - [libinput](https://wiki.archlinux.org/index.php/Libinput)
 - [libinput-gestures](https://aur.archlinux.org/packages/libinput-gestures/)
 - [urxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode)

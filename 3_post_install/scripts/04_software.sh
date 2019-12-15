@@ -16,8 +16,8 @@ echo "Installing Pulseaudio and ncpamixer"
 yay -S --noconfirm --needed pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulseaudio-zeroconf ncpamixer
 echo
 
-echo "Installing bluez-utils"
-yay -S --noconfirm --needed bluez-utils
+echo "Installing bluez bluez-utils"
+yay -S --noconfirm --needed bluez bluez-utils
 echo
 
 echo "Installing libinput and libinput-gestures"
