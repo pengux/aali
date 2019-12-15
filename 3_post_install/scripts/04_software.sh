@@ -175,8 +175,8 @@ echo "Installing restic backup tool"
 yay -S --noconfirm --needed restic
 echo
 
-echo "Installing fuse"
-yay -S --noconfirm --needed fuse
+echo "Installing fuse3"
+yay -S --noconfirm --needed fuse3
 echo
 
 echo "Installing flameshot"
