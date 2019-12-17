@@ -12,6 +12,7 @@ Well, not fully automated but a collection of scripts to help automating setting
 - [libinput](https://wiki.archlinux.org/index.php/Libinput)
 - [libinput-gestures](https://aur.archlinux.org/packages/libinput-gestures/)
 - [urxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode)
+- [tmux](https://wiki.archlinux.org/index.php/Tmux)
 - [zsh](https://wiki.archlinux.org/index.php/zsh)
 - [bspwm](https://wiki.archlinux.org/index.php/bspwm)
 - [slock](https://wiki.archlinux.org/index.php/Slock)

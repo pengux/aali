@@ -34,6 +34,10 @@ rm -rf /tmp/urxvt-resize-font
 cd ~
 echo
 
+echo "Installing tmux"
+yay -S --noconfirm --needed tmux
+echo
+
 echo "Installing zsh with plugins"
 yay -S --noconfirm --needed zsh zplug
 echo
