@@ -4,16 +4,20 @@ echo "Installing git"
 yay -S --noconfirm --needed git
 echo
 
-echo "Installing Xorg"
-yay -S --noconfirm --needed xorg xorg-xinit
+echo "Installing wayland related packages"
+yay -S --noconfirm --needed wayland qt5-wayland glfw-wayland glew-wayland
 echo
 
-echo "Installing picom"
-yay -S --noconfirm --needed picom
+echo "Installing sway, swayidle, swaylock, waybar"
+yay -S --noconfirm --needed sway swayidle swaylock waybar
 echo
 
-echo "Installing Pulseaudio and ncpamixer"
-yay -S --noconfirm --needed pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulseaudio-zeroconf ncpamixer
+echo "Installing wl-clipboard"
+yay -S --noconfirm --needed wl-clipboard
+echo
+
+echo "Installing Pulseaudio, ncpamixer and pavucontrol"
+yay -S --noconfirm --needed pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulseaudio-zeroconf ncpamixer pavucontrol
 echo
 
 echo "Installing bluez bluez-utils"
@@ -24,14 +28,12 @@ echo "Installing libinput and libinput-gestures"
 yay -S --noconfirm --needed libinput xf86-input-libinput xorg-xinput libinput-gestures
 echo
 
-echo "Installing urxvt with perl extensions"
-yay -S --noconfirm --needed rxvt-unicode urxvt-perls
-mkdir -p $HOME/.urxvt/ext/
-cd /tmp
-git clone git@github.com:simmel/urxvt-resize-font.git
-cp urxvt-resize-font/resize-font $HOME/.urxvt/ext
-rm -rf /tmp/urxvt-resize-font
-cd ~
+echo "Installing ydotool-git"
+yay -S --noconfirm --needed ydotool-git
+echo
+
+echo "Installing alacritty"
+yay -S --noconfirm --needed alacritty
 echo
 
 echo "Installing tmux"
@@ -42,40 +44,24 @@ echo "Installing zsh with plugins"
 yay -S --noconfirm --needed zsh zplug
 echo
 
-echo "Installing bspwm and sxhkd"
-yay -S --noconfirm --needed bspwm-git sxhkd-git
-echo
-
-echo "Installing slock"
-yay -S --noconfirm --needed slock
-echo
-
-echo "Installing xidlehook"
-yay -S --noconfirm --needed xidlehook
-echo
-
-echo "Installing autorandr"
-yay -S --noconfirm --needed autorandr
-echo
-
 echo "Installing gnupg"
 yay -S --noconfirm --needed gnupg
 echo
 
-echo "Installing dmenu"
-yay -S --noconfirm --needed dmenu
+echo "Installing dmenu-wayland"
+yay -S --noconfirm --needed dmenu-wayland-git
 echo
 
-echo "Installing polybar"
-yay -S --noconfirm --needed polybar
-echo
-
-echo "Installing feh"
-yay -S --noconfirm --needed feh
+echo "Installing imv"
+yay -S --noconfirm --needed imv
 echo
 
 echo "Installing ImageMagick"
 yay -S --noconfirm --needed imagemagick
+echo
+
+echo "Installing grim and slurp"
+yay -S --noconfirm --needed grim slurp
 echo
 
 echo "Installing Python and pip"
@@ -88,6 +74,12 @@ echo
 
 echo "Installing gvim"
 yay -S --noconfirm --needed gvim
+echo
+
+echo "Installing neovim with python modules"
+yay -S --noconfirm --needed neovim
+python3 -m pip install --user --upgrade pynvim
+python2 -m pip install --user --upgrade pynvim
 echo
 
 echo "Installing emacs"
@@ -147,8 +139,8 @@ echo "Installing Firefox"
 yay -S --noconfirm --needed firefox
 echo
 
-echo "Installing Chromium"
-yay -S --noconfirm --needed chromium
+echo "Installing Chromium Ozone"
+yay -S --noconfirm --needed chromium-ozone
 echo
 
 echo "Installing Slack"
