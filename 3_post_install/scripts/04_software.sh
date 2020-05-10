@@ -182,3 +182,7 @@ echo
 echo "Installing flameshot"
 yay -S --noconfirm --needed flameshot
 echo
+
+echo "Installing pipewire"
+yay -S --noconfirm --needed pipewire pipewire-pulse
+echo
