@@ -175,6 +175,10 @@ echo "Installing fuse3"
 yay -S --noconfirm --needed fuse3
 echo
 
+echo "Installing udisks2"
+yay -S --noconfirm --needed udisks2
+echo
+
 echo "Installing flameshot"
 yay -S --noconfirm --needed flameshot
 echo

@@ -51,6 +51,7 @@ Well, not fully automated but a collection of scripts to help automating setting
 - [VLC](https://wiki.archlinux.org/index.php/VLC_media_player)
 - [restic](https://restic.net/)
 - [fuse3](https://github.com/libfuse/libfuse)
+- [udisks2](https://wiki.archlinux.org/index.php/Udisks)
 - [NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager)
 
 ### NetworkManager VPN support
