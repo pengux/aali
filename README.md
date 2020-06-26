@@ -106,7 +106,7 @@ MIRRORS_COUNTRY=SE SET_NOATIME=true ./run.sh
 ##### Variables
 | Name     | Description                                        | Default |
 | ---      | ---                                                | ---     |
-| SWAPSIZE | Size of the swap file to be created at `/swapfile` | 4G      |
+| SWAPSIZE | Size of the swap file at `/swapfile` in MBs        | 4096    |
 | TZ       | Time-zone for system                               | UTC     |
 | LANG     | System language                                    | en_US   |
 | KEYMAP   | System keymap                                      | us      |
