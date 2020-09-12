@@ -16,6 +16,10 @@ echo "Installing wl-clipboard"
 yay -S --noconfirm --needed wl-clipboard
 echo
 
+echo "Installing xdg-desktop-portal-wlr-git"
+yay -S --noconfirm --needed xdg-desktop-portal-wlr-git
+echo
+
 echo "Installing Pulseaudio, ncpamixer and pavucontrol"
 yay -S --noconfirm --needed pulseaudio pulseaudio-alsa pulseaudio-bluetooth pulseaudio-zeroconf ncpamixer pavucontrol
 echo
