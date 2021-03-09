@@ -190,3 +190,8 @@ echo
 echo "Installing pipewire"
 yay -S --noconfirm --needed pipewire pipewire-pulse
 echo
+
+echo "Installing mutt-ics"
+pip install --user mutt_ics
+echo
+
