@@ -195,3 +195,7 @@ echo "Installing mutt-ics"
 pip install --user mutt_ics
 echo
 
+echo "Installing dictd"
+yay -S --noconfirm --needed dictd
+echo
+
