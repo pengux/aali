@@ -1,5 +1,5 @@
 # Automated Arch Linux Installer
-Well, not fully automated but a collection of scripts to help automating setting up Arch Linux. This is a very opionated setup for me (pengux). Use this at your own risk!
+Well, not fully automated but a collection of scripts to help automating setting up Arch Linux with wayland and sway. This is a very opionated setup for me (pengux). Use this at your own risk!
 
 ## Software
 - [yay](https://aur.archlinux.org/packages/yay/)
