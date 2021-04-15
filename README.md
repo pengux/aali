@@ -1,63 +1,59 @@
 # Automated Arch Linux Installer
-Well, not fully automated but a collection of scripts to help automating setting up Arch Linux. This is a very opionated setup for me (pengux). Use this at your own risk!
+Well, not fully automated but a collection of scripts to help automating setting up Arch Linux with wayland and sway. This is a very opionated setup for me (pengux). Use this at your own risk!
 
 ## Software
 - [yay](https://aur.archlinux.org/packages/yay/)
 - [git](https://aur.archlinux.org/packages/yay/)
-- [xorg](https://wiki.archlinux.org/index.php/xorg)
-- [picom](https://wiki.archlinux.org/index.php/Picom)
+- [wayland](https://wiki.archlinux.org/index.php/Wayland)
+- [sway](https://wiki.archlinux.org/index.php/Sway)
+- [waybar](https://github.com/Alexays/Waybar)
+- [swayidle](https://github.com/swaywm/swayidle)
+- [swaylock](https://github.com/swaywm/swaylock)
+- [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 - [pulseaudio](https://wiki.archlinux.org/index.php/PulseAudio)
 - [ncpamixer](https://github.com/fulhax/ncpamixer)
-- [bluez + bluez-utils](https://www.archlinux.org/packages/?name=bluez)
+- [pavucontrol](https://www.archlinux.org/packages/extra/x86_64/pavucontrol/)
+- [bluez-utils](https://www.archlinux.org/packages/extra/x86_64/bluez-utils/)
 - [libinput](https://wiki.archlinux.org/index.php/Libinput)
 - [libinput-gestures](https://aur.archlinux.org/packages/libinput-gestures/)
-- [urxvt](https://wiki.archlinux.org/index.php/Rxvt-unicode)
-- [tmux](https://wiki.archlinux.org/index.php/Tmux)
+- [ydotool-git](https://github.com/ReimuNotMoe/ydotool)
+- [alacritty](https://github.com/jwilm/alacritty)
 - [zsh](https://wiki.archlinux.org/index.php/zsh)
-- [bspwm](https://wiki.archlinux.org/index.php/bspwm)
-- [slock](https://wiki.archlinux.org/index.php/Slock)
-- [xidlehook](https://aur.archlinux.org/packages/xidlehook/)
-- [autorandr](https://www.archlinux.org/packages/community/any/autorandr/)
 - [gnupg](https://wiki.archlinux.org/index.php/GnuPG)
-- [sxhkd](https://wiki.archlinux.org/index.php/sxhkd)
-- [dmenu](https://wiki.archlinux.org/index.php/dmenu)
-- [polybar](https://wiki.archlinux.org/index.php/polybar)
-- [feh](https://wiki.archlinux.org/index.php/Feh)
+- [dmenu-wayland-git](https://aur.archlinux.org/packages/dmenu-wayland-git/)
+- [imv](https://github.com/eXeC64/imv)
 - [imagemagick](https://wiki.archlinux.org/index.php/ImageMagick)
+- [grim](https://www.archlinux.org/packages/community/x86_64/grim/)
+- [slurp](https://www.archlinux.org/packages/community/x86_64/slurp/)
 - [Python](https://wiki.archlinux.org/index.php/python)
 - [pywal](https://github.com/dylanaraps/pywal)
 - [gvim](https://wiki.archlinux.org/index.php/vim)
+- [neovim](https://neovim.io/)
 - [emacs](https://wiki.archlinux.org/index.php/emacs)
 - [w3m](https://www.archlinux.org/packages/extra/x86_64/w3m/)
 - [ranger](https://aur.archlinux.org/packages/ranger-git/)
 - [Go](https://wiki.archlinux.org/index.php/go)
 - [fzf](https://wiki.archlinux.org/index.php/fzf)
 - [pass](https://wiki.archlinux.org/index.php/pass)
-- [pass-update](https://github.com/roddhjav/pass-update)
-- [pass-audit](https://github.com/roddhjav/pass-audit)
-- [dunst](https://wiki.archlinux.org/index.php/dunst)
+- [mako](https://mako-project.org/)
 - [zathura](https://wiki.archlinux.org/index.php/zathura)
 - [wireguard](https://wiki.archlinux.org/index.php/WireGuard)
-- [maim](https://www.archlinux.org/packages/community/x86_64/maim/)
 - [Docker](https://wiki.archlinux.org/index.php/go)
 - [mycli](https://aur.archlinux.org/packages/mycli/)
 - [pgcli](https://aur.archlinux.org/packages/pgcli/)
 - [Firefox](https://wiki.archlinux.org/index.php/firefox)
-- [Chromium](https://wiki.archlinux.org/index.php/Chromium)
+- [chromium-ozone](https://aur.archlinux.org/packages/chromium-ozone/)
 - [Slack](https://aur.archlinux.org/packages/slack-desktop/)
 - [Skype](https://aur.archlinux.org/packages/skypeforlinux-stable-bin/)
 - [Zoom](https://aur.archlinux.org/packages/zoom/)
 - [Libreoffice](https://wiki.archlinux.org/index.php/LibreOffice)
 - [Gimp](https://wiki.archlinux.org/index.php/GIMP)
 - [VLC](https://wiki.archlinux.org/index.php/VLC_media_player)
+- [restic](https://restic.net/)
+- [fuse3](https://github.com/libfuse/libfuse)
+- [udisks2](https://wiki.archlinux.org/index.php/Udisks)
 - [NetworkManager](https://wiki.archlinux.org/index.php/NetworkManager)
-- [restic](https://restic.readthedocs.io/en/latest/)
-- [fuse3](https://www.archlinux.org/packages/?sort=&q=fuse3&maintainer=&flagged=)
-- [flameshot](https://wiki.archlinux.org/index.php/Flameshot)
-
-### urxvt extensions
-- [urxvt-perls](https://www.archlinux.org/packages/community/any/urxvt-perls/)
-- [urxvt-resize-font](https://github.com/simmel/urxvt-resize-font)
+- [PipeWire](https://wiki.archlinux.org/index.php/PipeWire)
 
 ### NetworkManager VPN support
 - [OpenVPN](https://wiki.archlinux.org/index.php/Networkmanager-openvpn)
@@ -110,7 +106,7 @@ MIRRORS_COUNTRY=SE SET_NOATIME=true ./run.sh
 ##### Variables
 | Name     | Description                                        | Default |
 | ---      | ---                                                | ---     |
-| SWAPSIZE | Size of the swap file to be created at `/swapfile` | 4G      |
+| SWAPSIZE | Size of the swap file at `/swapfile` in MBs        | 4096    |
 | TZ       | Time-zone for system                               | UTC     |
 | LANG     | System language                                    | en_US   |
 | KEYMAP   | System keymap                                      | us      |

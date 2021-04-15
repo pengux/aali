@@ -1,9 +1,9 @@
 #!/bin/bash
 
-SWAPSIZE=${SWAPSIZE:-4G}
+SWAPSIZE=${SWAPSIZE:-4096}
 
 echo -e "\nCreate a swap file at /swapfile\n"
-fallocate -l $SWAPSIZE /swapfile
+dd if=/dev/zero of=/swapfile bs=1M count=$SWAPSIZE
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
