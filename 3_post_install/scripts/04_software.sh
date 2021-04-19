@@ -143,8 +143,8 @@ echo "Installing Firefox"
 yay -S --noconfirm --needed firefox
 echo
 
-echo "Installing Chromium Ozone"
-yay -S --noconfirm --needed chromium-ozone
+echo "Installing Chromium"
+yay -S --noconfirm --needed chromium
 echo
 
 echo "Installing Slack"
