@@ -199,3 +199,7 @@ echo "Installing ripmime"
 yay -S --noconfirm --needed ripmime
 echo
 
+echo "Installing fcitx"
+yay -S --noconfirm --needed fcitx fcitx-qt5 fcitx-unikey fcitx-configtool
+echo
+
