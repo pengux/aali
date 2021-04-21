@@ -28,6 +28,10 @@ echo "Installing bluez bluez-utils"
 yay -S --noconfirm --needed bluez bluez-utils
 echo
 
+echo "Installing acpi"
+yay -S --noconfirm --needed acpi
+echo
+
 echo "Installing libinput and libinput-gestures"
 yay -S --noconfirm --needed libinput xf86-input-libinput xorg-xinput libinput-gestures
 echo
