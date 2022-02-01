@@ -110,7 +110,7 @@ echo "Installing fzf"
 yay -S --noconfirm --needed fzf-git
 echo
 
-echo "Installing pass and exteions"
+echo "Installing pass and extensions"
 yay -S --noconfirm --needed pass-git pass-update pass-audit
 echo
 
@@ -124,10 +124,6 @@ echo
 
 echo "Installing WireGuard"
 yay -S --noconfirm --needed wireguard-tools wireguard-arch
-echo
-
-echo "Installing maim for screen capture"
-yay -S --noconfirm --needed maim
 echo
 
 echo "Installing Docker and docker-compose"
@@ -147,8 +143,8 @@ echo "Installing Firefox"
 yay -S --noconfirm --needed firefox
 echo
 
-echo "Installing Chromium"
-yay -S --noconfirm --needed chromium
+echo "Installing Google Chrome"
+yay -S --noconfirm --needed google-chrome-stable
 echo
 
 echo "Installing Slack"
@@ -209,5 +205,9 @@ echo
 
 echo "Installing neovide (Neovim GUI)"
 yay -S --noconfirm --needed neovide-git
+echo
+
+echo "Installing mimeo (filetypes and default apps assocations)"
+yay -S --noconfirm --needed mimeo
 echo
 
