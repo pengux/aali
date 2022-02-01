@@ -208,6 +208,6 @@ yay -S --noconfirm --needed fcitx fcitx-qt5 fcitx-unikey fcitx-configtool
 echo
 
 echo "Installing neovide (Neovim GUI)"
-yay -S --noconfirm --needed neovide-bin
+yay -S --noconfirm --needed neovide-git
 echo
 
