@@ -175,6 +175,10 @@ echo "Installing restic backup tool"
 yay -S --noconfirm --needed restic
 echo
 
+echo "Installing rclone"
+yay -S --noconfirm --needed rclone
+echo
+
 echo "Installing fuse3"
 yay -S --noconfirm --needed fuse3
 echo
