@@ -204,7 +204,7 @@ yay -S --noconfirm --needed ripmime
 echo
 
 echo "Installing fcitx"
-yay -S --noconfirm --needed fcitx fcitx-qt5 fcitx-unikey fcitx-configtool
+yay -S --noconfirm --needed fcitx5 fcitx5-qt fcitx5-unikey fcitx5-configtool fcitx5-gtk
 echo
 
 echo "Installing neovide (Neovim GUI)"
