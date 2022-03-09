@@ -139,8 +139,8 @@ yay -S --noconfirm --needed postgresql-libs
 pip install --user pgcli
 echo
 
-echo "Installing Firefox"
-yay -S --noconfirm --needed firefox
+echo "Installing waterfox"
+yay -S --noconfirm --needed waterfox-g4-bin
 echo
 
 echo "Installing Google Chrome"
