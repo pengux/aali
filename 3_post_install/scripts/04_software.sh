@@ -215,3 +215,7 @@ echo "Installing mimeo (filetypes and default apps assocations)"
 yay -S --noconfirm --needed mimeo
 echo
 
+echo "Installing libimobiledevice (allow tethering through mobile devices)"
+yay -S --noconfirm --needed libimobiledevice
+echo
+
