@@ -219,3 +219,11 @@ echo "Installing libimobiledevice (allow tethering through mobile devices)"
 yay -S --noconfirm --needed libimobiledevice
 echo
 
+echo "Installing snapd"
+yay -S --noconfirm --needed snapd
+echo
+
+echo "Installing flutter"
+sudo snap install flutter --classic
+echo
+
