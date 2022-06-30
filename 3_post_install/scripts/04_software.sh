@@ -56,8 +56,8 @@ echo "Installing gnupg"
 yay -S --noconfirm --needed gnupg
 echo
 
-echo "Installing dmenu-wayland"
-yay -S --noconfirm --needed dmenu-wayland-git
+echo "Installing rofi"
+yay -S --noconfirm --needed rofi
 echo
 
 echo "Installing imv"
