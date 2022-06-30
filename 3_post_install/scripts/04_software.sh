@@ -227,3 +227,7 @@ echo "Installing flutter"
 sudo snap install flutter --classic
 echo
 
+echo "Installing rbw (Bitwarden client) with rofi plugin"
+yay -S --noconfirm --needed rbw rofi-rbw
+echo
+
