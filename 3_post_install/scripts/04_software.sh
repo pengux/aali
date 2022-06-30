@@ -56,8 +56,8 @@ echo "Installing gnupg"
 yay -S --noconfirm --needed gnupg
 echo
 
-echo "Installing rofi"
-yay -S --noconfirm --needed rofi
+echo "Installing rofi and plugins"
+yay -S --noconfirm --needed rofi tessen
 echo
 
 echo "Installing imv"
