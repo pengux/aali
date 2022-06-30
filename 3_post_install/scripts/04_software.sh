@@ -36,8 +36,12 @@ echo "Installing libinput and libinput-gestures"
 yay -S --noconfirm --needed libinput xf86-input-libinput xorg-xinput libinput-gestures
 echo
 
-echo "Installing ydotool-git"
-yay -S --noconfirm --needed ydotool-git
+echo "Installing ydotool-bin"
+yay -S --noconfirm --needed ydotool-bin
+echo
+
+echo "Installing wtype"
+yay -S --noconfirm --needed wtype
 echo
 
 echo "Installing alacritty"
