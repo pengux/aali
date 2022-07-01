@@ -61,7 +61,7 @@ yay -S --noconfirm --needed gnupg
 echo
 
 echo "Installing rofi with Wayland support and plugins"
-yay -S --noconfirm --needed rofi-lbonn-wayland tessen
+yay -S --noconfirm --needed rofi-lbonn-wayland rofi-calc tessen
 echo
 
 echo "Installing imv"
