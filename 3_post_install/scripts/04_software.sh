@@ -235,3 +235,7 @@ echo "Installing rbw (Bitwarden client) with rofi plugin"
 yay -S --noconfirm --needed rbw rofi-rbw
 echo
 
+echo "Installing qalculate!"
+yay -S --noconfirm --needed qalculate-gtk
+echo
+
