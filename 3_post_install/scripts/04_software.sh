@@ -239,3 +239,11 @@ echo "Installing qalculate!"
 yay -S --noconfirm --needed qalculate-gtk
 echo
 
+echo "Installing linux-wifi-hotspot!"
+yay -S --noconfirm --needed linux-wifi-hotspot
+echo
+
+echo "Installing Yubico (Yubikey) tools"
+yay -S --noconfirm --needed yubikey-manager-qt yubikey-personalization-gui
+echo
+
