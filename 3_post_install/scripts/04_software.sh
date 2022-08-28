@@ -247,3 +247,9 @@ echo "Installing Yubico (Yubikey) tools"
 yay -S --noconfirm --needed yubikey-manager-qt yubikey-personalization-gui
 echo
 
+echo "Installing tlp (power management)"
+yay -S --noconfirm --needed tlp tlpui
+systemctl enable tlp
+systemctl start tlp
+echo
+
