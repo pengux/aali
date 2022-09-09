@@ -12,6 +12,10 @@ echo "Installing sway, swayidle, swaylock, waybar"
 yay -S --noconfirm --needed sway swayidle swaylock waybar
 echo
 
+echo "Installing autotiling-rs"
+yay -S --noconfirm --needed autotiling-rs-git
+echo
+
 echo "Installing wl-clipboard"
 yay -S --noconfirm --needed wl-clipboard
 echo
