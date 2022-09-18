@@ -115,7 +115,7 @@ yay -S --noconfirm --needed go
 echo
 
 echo "Installing fzf"
-yay -S --noconfirm --needed fzf-git
+yay -S --noconfirm --needed fzf
 echo
 
 echo "Installing pass and extensions"
