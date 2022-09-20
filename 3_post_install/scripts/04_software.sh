@@ -257,3 +257,7 @@ systemctl enable tlp
 systemctl start tlp
 echo
 
+echo "Installing fd (find alternative)"
+yay -S --noconfirm --needed fd
+echo
+
