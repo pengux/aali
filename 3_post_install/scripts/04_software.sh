@@ -106,8 +106,8 @@ echo "Installing w3m"
 yay -S --noconfirm --needed w3m
 echo
 
-echo "Installing ranger"
-yay -S --noconfirm --needed ranger
+echo "Installing lf"
+yay -S --noconfirm --needed lf-bin
 echo
 
 echo "Installing Go"
