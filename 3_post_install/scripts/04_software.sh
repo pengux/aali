@@ -261,3 +261,7 @@ echo "Installing fd (find alternative)"
 yay -S --noconfirm --needed fd
 echo
 
+echo "Installing bat (cat alternative)"
+yay -S --noconfirm --needed bat
+echo
+
