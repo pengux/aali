@@ -231,8 +231,11 @@ echo "Installing snapd"
 yay -S --noconfirm --needed snapd
 echo
 
-echo "Installing flutter"
-sudo snap install flutter --classic
+echo "Installing flutter with Android tools"
+yay -S flutter
+sudo gpasswd -a ${USER} flutterusers
+yay -S android-sdk android-sdk-platform-tools android-sdk-build-tools
+yay -S android-platform
 echo
 
 echo "Installing rbw (Bitwarden client) with rofi plugin"
