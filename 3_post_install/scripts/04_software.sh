@@ -1,5 +1,9 @@
 #!/bin/bash
 
+echo "installing microcode"
+yay -S --noconfirm --needed intel-ucode
+echo
+
 echo "Installing git"
 yay -S --noconfirm --needed git
 echo
