@@ -4,6 +4,10 @@ echo "installing microcode"
 yay -S --noconfirm --needed intel-ucode
 echo
 
+echo "installing dkms and linux-headers"
+yay -S --noconfirm --needed dkms linux-headers
+echo
+
 echo "Installing git"
 yay -S --noconfirm --needed git
 echo
