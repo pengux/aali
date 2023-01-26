@@ -12,6 +12,10 @@ echo "Installing git"
 yay -S --noconfirm --needed git
 echo
 
+echo "installing fwupd"
+yay -S --noconfirm --needed fwupd
+echo
+
 echo "Installing wayland related packages"
 yay -S --noconfirm --needed wayland qt5-wayland glfw-wayland glew-wayland
 echo
