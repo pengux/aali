@@ -20,8 +20,8 @@ echo "Installing wayland related packages"
 yay -S --noconfirm --needed wayland qt5-wayland glfw-wayland glew-wayland
 echo
 
-echo "Installing sway, swayidle, swaylock, waybar"
-yay -S --noconfirm --needed sway swayidle swaylock waybar
+echo "Installing sway, swayidle, swaylock, swaybg, waybar"
+yay -S --noconfirm --needed sway swayidle swaylock swaybg waybar
 echo
 
 echo "Installing autotiling-rs"
